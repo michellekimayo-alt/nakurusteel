@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Devki Steel – Fencing, Wire, Gabions & Genuine Water Tanks in Kenya</title>
+<meta name="description" content="Chain link, barbed wire, gabions, galvanized wire, nails and genuine Kentank, TopTank & Roto water tanks. Factory prices, nationwide delivery.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap">
+<style>
+:root{
+  --bg:#fbfaf8;--alt:#f1eeea;--card:#fff;--text:#17140f;--mute:#625c53;--line:#e4dfd8;
+  --acc:#e8590c;--acc-ink:#fff;--ink:#12100d;--ink-text:#f6f2ec;--ink-mute:#b3aa9d;--ink-line:#2b2620;
+  --hd:"Barlow Condensed","Arial Narrow",Impact,sans-serif;--bd:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+  box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0f0d0b;--alt:#161310;--card:#1b1713;--text:#f4efe8;--mute:#aaa194;--line:#2c2620;--acc:#ff7a2e;--acc-ink:#12100d;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0f0d0b;--alt:#161310;--card:#1b1713;--text:#f4efe8;--mute:#aaa194;--line:#2c2620;--acc:#ff7a2e;--acc-ink:#12100d;color-scheme:dark}
+html{scroll-behavior:smooth;scroll-padding-top:calc(68px + env(safe-area-inset-top,0px))}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:400 16px/1.6 var(--bd);-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--ink);z-index:60}
+a{color:inherit;text-decoration:none}
+.w{max-width:1160px;margin:0 auto;padding:0 20px}
+section{padding:84px 0}
+h1,h2,h3{font-family:var(--hd);text-transform:uppercase;letter-spacing:.01em;line-height:1;margin:0}
+h2{font-size:clamp(2.2rem,5.5vw,3.6rem);margin:.5rem 0 1rem}
+.eye{display:inline-flex;align-items:center;gap:10px;color:var(--acc);font-weight:700;font-size:.78rem;letter-spacing:.16em;text-transform:uppercase}
+.eye::before{content:"";width:28px;height:2px;background:var(--acc)}
+.lead{color:var(--mute);max-width:600px;font-size:1.08rem;margin:0 0 34px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:14px 24px;border-radius:6px;font-weight:700;font-size:.95rem;border:2px solid var(--acc);cursor:pointer;font-family:var(--bd);transition:transform .15s,box-shadow .15s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(232,89,12,.3)}
+.btn.p{background:var(--acc);color:var(--acc-ink)}
+.btn.g{border-color:rgba(255,255,255,.4);color:#fff}
+.btn.s{padding:10px 16px;font-size:.85rem}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:rgba(18,16,13,.92);backdrop-filter:blur(10px);color:var(--ink-text);border-bottom:1px solid var(--ink-line)}
+header .w{display:flex;align-items:center;justify-content:space-between;height:68px}
+.logo{display:flex;align-items:center;gap:10px;font-family:var(--hd);font-size:1.5rem;font-weight:800;text-transform:uppercase}
+.logo b{width:38px;height:38px;border-radius:6px;background:var(--acc);color:var(--acc-ink);display:grid;place-items:center}
+nav{display:flex;gap:26px;font-size:.9rem;font-weight:500}
+nav a{color:var(--ink-mute)}nav a:hover{color:#fff}
+.hcta{display:flex;align-items:center;gap:14px}
+.menu{display:none;background:none;border:0;color:#fff;font-size:1.7rem}
+@media(max-width:900px){
+ nav{display:none;position:absolute;top:68px;left:0;right:0;background:var(--ink);flex-direction:column;padding:16px 20px 22px;gap:16px;border-bottom:1px solid var(--ink-line)}
+ nav.open{display:flex}.menu{display:block}.hcta .btn{display:none}}
+.hero{position:relative;overflow:hidden;background:radial-gradient(900px 500px at 85% 10%,rgba(232,89,12,.35),transparent 60%),linear-gradient(160deg,#1a1611,#0c0a08);color:var(--ink-text);padding:96px 0 0}
+.hero::after{content:"";position:absolute;inset:0;background:repeating-linear-gradient(45deg,transparent 0 22px,rgba(255,255,255,.025) 22px 23px),repeating-linear-gradient(-45deg,transparent 0 22px,rgba(255,255,255,.025) 22px 23px);pointer-events:none}
+.hero .w{position:relative;z-index:1}
+.hero h1{font-size:clamp(3.2rem,11vw,7rem);font-weight:800;max-width:900px;margin:1rem 0 1.4rem}
+.hero h1 em{font-style:normal;color:var(--acc)}
+.hero p{max-width:560px;font-size:1.15rem;color:var(--ink-mute);margin:0 0 30px}
+.hero .row{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:64px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--ink-line)}
+.stat{padding:26px 16px 30px 0}
+.stat b{display:block;font-family:var(--hd);font-size:clamp(2.2rem,6vw,3.6rem);font-weight:800;line-height:1}
+.stat span{color:var(--ink-mute);font-size:.82rem;text-transform:uppercase;letter-spacing:.1em}
+@media(max-width:620px){.stats{grid-template-columns:repeat(2,1fr)}}
+.strip{background:var(--acc);color:var(--acc-ink);overflow:hidden;white-space:nowrap;padding:14px 0;font-family:var(--hd);font-size:1.25rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em}
+.strip div{display:inline-block;animation:mq 28s linear infinite}
+.strip span{margin:0 26px}
+@keyframes mq{to{transform:translateX(-50%)}}
+.offer{display:grid;grid-template-columns:1.1fr .9fr;border-radius:14px;overflow:hidden;background:var(--ink);color:var(--ink-text);margin-bottom:46px}
+.offer .t{padding:36px}
+.offer h3{font-size:2.6rem;margin:.6rem 0}
+.offer p{color:var(--ink-mute);margin:0 0 18px}
+.tag{display:inline-block;background:var(--acc);color:var(--acc-ink);font-size:.7rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;padding:4px 10px;border-radius:4px}
+.pr{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:22px}
+.pr div{border:1px solid var(--ink-line);border-radius:8px;padding:10px 16px}
+.pr small{display:block;color:var(--ink-mute);font-size:.72rem;text-transform:uppercase;letter-spacing:.08em}
+.pr b{font-family:var(--hd);font-size:1.7rem}
+.offer .v{background:linear-gradient(135deg,#3b2a1c,var(--acc));display:grid;place-items:center;font-size:6rem;min-height:200px}
+@media(max-width:760px){.offer{grid-template-columns:1fr}.offer .t{padding:26px}}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:24px}
+.tab{padding:9px 18px;border-radius:99px;border:1px solid var(--line);background:var(--card);color:var(--text);font:600 .88rem var(--bd);cursor:pointer}
+.tab.on{background:var(--text);color:var(--bg);border-color:var(--text)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column;transition:transform .2s,border-color .2s}
+.card:hover{transform:translateY(-4px);border-color:var(--acc)}
+.card .ic{height:130px;display:grid;place-items:center;font-size:3rem;background:linear-gradient(135deg,var(--alt),var(--line))}
+.card .b{padding:18px;display:flex;flex-direction:column;gap:6px;flex:1}
+.card small{color:var(--acc);font-weight:700;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase}
+.card h3{font-size:1.6rem}
+.card p{margin:0;color:var(--mute);font-size:.9rem}
+.card .pc{font-family:var(--hd);font-size:1.8rem;font-weight:700}
+.card .btn{margin-top:auto;justify-content:center}
+.tanks{background:var(--ink);color:var(--ink-text)}
+.tanks .lead{color:var(--ink-mute)}
+.tanks .tab{background:transparent;color:var(--ink-text);border-color:var(--ink-line)}
+.tanks .tab.on{background:var(--acc);color:var(--acc-ink);border-color:var(--acc)}
+.tanks .card{background:#1a1612;border-color:var(--ink-line)}
+.tanks .card .ic{background:linear-gradient(135deg,#0b3b4a,#116a80)}
+.tanks .card p{color:var(--ink-mute)}
+.perks{display:flex;flex-wrap:wrap;gap:12px 30px;margin-top:30px;font-weight:600;font-size:.92rem;color:var(--ink-mute)}
+.perks span::before{content:"✓ ";color:var(--acc)}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+.step{border-top:3px solid var(--acc);padding-top:16px}
+.step b{font-family:var(--hd);font-size:3.4rem;color:var(--acc);line-height:1}
+.step h3{font-size:1.6rem;margin:.3rem 0}
+.step p{color:var(--mute);margin:0}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+@media(max-width:820px){.two{grid-template-columns:1fr;gap:30px}}
+.vis{aspect-ratio:5/4;border-radius:14px;background:linear-gradient(135deg,#1a1611,var(--acc));display:grid;place-items:center;font-size:6rem;position:relative}
+.vis i{position:absolute;left:18px;bottom:18px;background:var(--bg);color:var(--text);font-style:normal;border-radius:10px;padding:12px 18px;font-family:var(--hd);font-size:1.4rem;font-weight:700;text-transform:uppercase}
+.alt{background:var(--alt)}
+.why{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+.why div{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:24px}
+.why .e{font-size:1.8rem}.why h3{font-size:1.5rem;margin:.6rem 0 .3rem}.why p{margin:0;color:var(--mute);font-size:.94rem}
+.q{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
+blockquote{margin:0;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:26px}
+blockquote p{margin:0 0 20px;font-size:1.05rem}
+.who{display:flex;gap:12px;align-items:center;font-weight:600;font-size:.92rem}
+.who i{width:42px;height:42px;border-radius:50%;background:var(--acc);color:var(--acc-ink);display:grid;place-items:center;font-style:normal;font-weight:800}
+.who small{display:block;color:var(--mute);font-weight:400}
+.stars{color:var(--acc);letter-spacing:3px;margin-bottom:10px}
+.gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px}
+.gal div{aspect-ratio:1;border-radius:10px;display:grid;place-items:center;font-size:2.4rem;background:linear-gradient(135deg,var(--line),var(--alt))}
+.cta{background:linear-gradient(135deg,var(--acc),#b83f00);color:#fff;text-align:center;padding:72px 0}
+.cta h2{margin:0 0 12px}.cta p{margin:0 auto 26px;max-width:520px;opacity:.92}
+.cta .btn{background:#fff;color:#b83f00;border-color:#fff}
+.ct{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+@media(max-width:820px){.ct{grid-template-columns:1fr}}
+.inf div{padding:16px 0;border-bottom:1px solid var(--line)}
+.inf small{display:block;color:var(--mute);font-size:.75rem;text-transform:uppercase;letter-spacing:.1em}
+.inf b{font-size:1.1rem}
+form{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:26px;display:grid;gap:14px}
+label{display:grid;gap:5px;font-size:.82rem;font-weight:600}
+input,textarea{font:inherit;padding:12px 14px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--text);width:100%}
+input:focus,textarea:focus{outline:2px solid var(--acc);border-color:transparent}
+textarea{min-height:110px;resize:vertical}
+footer{background:var(--ink);color:var(--ink-text);padding:60px 0 26px}
+footer .c{display:grid;grid-template-columns:2fr 1fr 1fr;gap:34px}
+@media(max-width:720px){footer .c{grid-template-columns:1fr}}
+footer h4{font-family:var(--hd);font-size:1.3rem;text-transform:uppercase;margin:0 0 12px}
+footer p,footer li{color:var(--ink-mute);font-size:.92rem}footer ul{list-style:none;padding:0;margin:0}footer li{margin:7px 0}
+footer .cp{border-top:1px solid var(--ink-line);margin-top:34px;padding-top:18px;font-size:.8rem;color:var(--ink-mute)}
+.fab{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));width:56px;height:56px;border-radius:50%;background:#25d366;display:grid;place-items:center;font-size:1.6rem;box-shadow:0 6px 18px rgba(0,0,0,.35);z-index:40}
+.rv{opacity:0;transform:translateY(22px);transition:opacity .6s,transform .6s}.rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){.rv{opacity:1;transform:none}.strip div{animation:none}}
+</style>
+</head>
+<body>
+<header><div class="w">
+  <a class="logo" href="#home"><b>D</b>Devki Steel</a>
+  <nav id="nav"><a href="#products">Products</a><a href="#tanks">Water Tanks</a><a href="#how">How It Works</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+  <div class="hcta"><a class="btn p s" href="tel:0115531131">Call 0115 531 131</a><button class="menu" id="menu" aria-label="Menu">☰</button></div>
+</div></header>
+
+<main>
+<section class="hero" id="home">
+  <div class="w">
+    <span class="eye">Serving Kenya since 2008</span>
+    <h1>Steel that <em>holds</em> your world together.</h1>
+    <p>Fencing, galvanized wire, gabions, nails and genuine Kentank, TopTank and Roto water tanks. Straight from the manufacturers, at prices that make sense, delivered across Kenya.</p>
+    <div class="row">
+      <a class="btn p" href="#products">Browse the Catalog →</a>
+      <a class="btn g" href="https://wa.me/254115531131?text=Hello%20Devki%20Steel,%20I%E2%80%99d%20like%20to%20place%20an%20order.">Order on WhatsApp</a>
+    </div>
+    <div class="stats">
+      <div class="stat"><b data-n="15" data-s="+">0</b><span>Years supplying Kenya</span></div>
+      <div class="stat"><b data-n="10" data-s="K+">0</b><span>Happy customers</span></div>
+      <div class="stat"><b data-n="500" data-s="+">0</b><span>Projects supplied</span></div>
+      <div class="stat"><b data-n="100" data-s="%">0</b><span>Genuine products</span></div>
+    </div>
+  </div>
+</section>
+<div class="strip"><div id="mq"></div></div>
+
+<section id="products">
+  <div class="w">
+    <span class="eye">The Catalog</span>
+    <h2>Everything you need to fence, build and secure</h2>
+    <p class="lead">From a single roll of barbed wire to a full construction site, we stock the materials contractors, farmers and homeowners rely on.</p>
+    <div class="offer rv">
+      <div class="t">
+        <span class="tag">Cement Offer</span>
+        <h3>Simba Cement</h3>
+        <p>Genuine Simba Cement at offer prices, delivered nationwide. Message us for today’s rate.</p>
+        <div class="pr"><div><small>32.5R</small><b>KSh 550</b></div><div><small>42.5N</small><b>KSh 680</b></div></div>
+        <a class="btn p" href="https://wa.me/254115531131?text=Hello%20Devki%20Steel%2C%20I%E2%80%99d%20like%20today%E2%80%99s%20offer%20price%20for%20Simba%20Cement%20(32.5R%20%2F%2042.5N).">Get Cement Price</a>
+      </div>
+      <div class="v">🧱</div>
+    </div>
+    <div class="tabs" id="ptabs"></div>
+    <div class="grid" id="pgrid"></div>
+  </div>
+</section>
+
+<section class="tanks" id="tanks">
+  <div class="w">
+    <span class="eye">Water Storage</span>
+    <h2>Genuine tanks. Factory prices.</h2>
+    <p class="lead">Authentic Kenyan-made Kentank, TopTank and Roto tanks, from 1,000 to 24,000 litres. Same-day delivery within Nairobi.</p>
+    <div class="tabs" id="ttabs"></div>
+    <div class="grid" id="tgrid"></div>
+    <div class="perks"><span>Free delivery within Nairobi</span><span>Genuine manufacturer products</span><span>Same-day dispatch</span></div>
+  </div>
+</section>
+
+<section id="how">
+  <div class="w">
+    <span class="eye">How It Works</span>
+    <h2>Ordering takes minutes, not days</h2>
+    <p class="lead">No queues, no middlemen. Tell us what you need and we handle the rest.</p>
+    <div class="steps">
+      <div class="step rv"><b>01</b><h3>Tell us what you need</h3><p>Message us on WhatsApp or call with your product and quantity.</p></div>
+      <div class="step rv"><b>02</b><h3>Get your price</h3><p>Receive a clear, competitive quote straight from our factory-sourced stock.</p></div>
+      <div class="step rv"><b>03</b><h3>We deliver</h3><p>Doorstep delivery to every county, with same-day dispatch in Nairobi.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="about">
+  <div class="w two">
+    <div class="vis rv">🏗️<i>Est. 2008</i></div>
+    <div class="rv">
+      <span class="eye">About Devki Steel</span>
+      <h2>Kenya’s reliable partner for steel and construction supplies</h2>
+      <p style="color:var(--mute)">For over 15 years, <b style="color:var(--text)">Devki Steel</b> has supplied premium fencing materials, galvanized wires, gabions, nails and authentic water tanks to contractors, farmers and households across Kenya.</p>
+      <p style="color:var(--mute)">We source directly from leading manufacturers, which means genuine quality, fair pricing and fast nationwide delivery. Whether it’s one roll or a full site supply, you get the same integrity every time.</p>
+      <a class="btn p" href="#contact">Talk to Our Team</a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="w">
+    <span class="eye">Why Choose Us</span>
+    <h2>Built for builders. Trusted by Kenya.</h2>
+    <div class="why" style="margin-top:30px">
+      <div class="rv"><span class="e">✅</span><h3>Genuine Products</h3><p>100% authentic, manufacturer-sourced inventory. No imitations.</p></div>
+      <div class="rv"><span class="e">💰</span><h3>Affordable Prices</h3><p>Direct factory pricing with no middlemen adding to your bill.</p></div>
+      <div class="rv"><span class="e">🚚</span><h3>Nationwide Delivery</h3><p>Doorstep delivery to every county in Kenya.</p></div>
+      <div class="rv"><span class="e">🛡️</span><h3>Quality Guaranteed</h3><p>Every product is backed by our quality promise.</p></div>
+      <div class="rv"><span class="e">💬</span><h3>Fast Support</h3><p>Reach a real person on WhatsApp or phone, whenever you need us.</p></div>
+      <div class="rv"><span class="e">🤝</span><h3>Trusted Supplier</h3><p>15+ years serving builders and contractors across the country.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="w">
+    <span class="eye">Customer Stories</span>
+    <h2>Trusted by builders countrywide</h2>
+    <div class="q" style="margin-top:30px">
+      <blockquote class="rv"><div class="stars">★★★★★</div><p>“Best fencing materials in Kenya. Great customer service and the delivery was on time.”</p><div class="who"><i>JM</i><span>James Mwangi<small>Contractor, Nairobi</small></span></div></blockquote>
+      <blockquote class="rv"><div class="stars">★★★★★</div><p>“Ordered water tanks and received them the next day. Genuine Kentank, exactly as advertised.”</p><div class="who"><i>FW</i><span>Faith Wanjiru<small>Farm Owner, Nakuru</small></span></div></blockquote>
+      <blockquote class="rv"><div class="stars">★★★★★</div><p>“Excellent quality galvanized wire and unbeatable prices. I’m a repeat customer now.”</p><div class="who"><i>PO</i><span>Peter Otieno<small>Builder, Kisumu</small></span></div></blockquote>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="w">
+    <span class="eye">Gallery</span>
+    <h2>Our work across Kenya</h2>
+    <div class="gal" style="margin-top:30px">
+      <div title="Shade-net perimeter fence">🌿</div><div title="Chain link fence">⛓️</div><div title="Razor wire on perimeter wall">🧱</div>
+      <div title="Barbed wire farm fencing">🐄</div><div title="Delivery truck">🚚</div><div title="Chain link rolls">📦</div>
+    </div>
+    <p style="color:var(--mute);font-size:.85rem">Swap these tiles for your own project photos.</p>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="w">
+    <h2>Ready to build something solid?</h2>
+    <p>Get a quote for fencing, wire, gabions or water tanks in minutes.</p>
+    <a class="btn" href="https://wa.me/254115531131?text=Hello%20Devki%20Steel%2C%20I%E2%80%99d%20like%20a%20quote.">Get a Quote on WhatsApp</a>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="w ct">
+    <div>
+      <span class="eye">Get In Touch</span>
+      <h2>Let’s build something solid together</h2>
+      <p class="lead">Quotes, bulk orders or technical advice on any product: our team is ready to help.</p>
+      <div class="inf">
+        <div><small>Call</small><b><a href="tel:0115531131">0115 531 131</a></b></div>
+        <div><small>WhatsApp</small><b><a href="https://wa.me/254115531131">0115 531 131</a></b></div>
+        <div><small>Location</small><b>Nairobi, Kenya · Nationwide delivery</b></div>
+        <div><small>Hours</small><b>Mon–Sat · 7:00 AM – 7:00 PM</b></div>
+      </div>
+    </div>
+    <form id="form">
+      <h3 style="font-size:1.8rem">Send a message</h3>
+      <label>Full name<input name="name" required></label>
+      <label>Phone<input name="phone" type="tel" required></label>
+      <label>Email (optional)<input name="email" type="email"></label>
+      <label>Message<textarea name="msg" required></textarea></label>
+      <button class="btn p" type="submit" style="justify-content:center">Send via WhatsApp</button>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer><div class="w">
+  <div class="c">
+    <div><div class="logo" style="margin-bottom:12px"><b>D</b>Devki Steel</div><p>Building Kenya with quality steel solutions: fencing, wires, gabions and genuine water tanks at unbeatable prices.</p></div>
+    <div><h4>Explore</h4><ul><li><a href="#products">Products</a></li><li><a href="#tanks">Water Tanks</a></li><li><a href="#about">About</a></li><li><a href="#contact">Contact</a></li></ul></div>
+    <div><h4>Reach Us</h4><ul><li><a href="https://wa.me/254115531131">WhatsApp Us</a></li><li><a href="tel:0115531131">0115 531 131</a></li><li>Mon–Sat, 7 AM – 7 PM</li></ul></div>
+  </div>
+  <div class="cp">© 2026 Devki Steel. All rights reserved. Building Kenya with quality steel solutions.</div>
+</div></footer>
+<a class="fab" href="https://wa.me/254115531131?text=Hello%20Devki%20Steel" aria-label="Chat on WhatsApp">💬</a>
+
+<script>
+const WA="https://wa.me/254115531131?text=",enc=encodeURIComponent,kes=n=>"KSh "+n.toLocaleString("en-KE");
+const items=["Chain Link","Barbed Wire","Razor Wire","Gabions","Galvanized Wire","Nails","Kentank","TopTank","Roto Tank","Simba Cement"];
+mq.innerHTML=[...items,...items].map(i=>`<span>${i} ✦</span>`).join("");
+
+// Edit: [name, category, description, price or null]
+const products=[
+ ["Chain Link","Fencing","Galvanized and PVC-coated, built for long-lasting boundaries.",null],
+ ["Barbed Wire","Fencing","Heavy-duty rolls for farms and perimeters.",null],
+ ["Razor Wire","Security","Concertina coils that deter intruders on walls and gates.",null],
+ ["Welded Mesh","Fencing","Rigid, tidy fencing in a range of gauges.",null],
+ ["Chicken Wire","Agriculture","Flexible hexagonal mesh for poultry and gardens.",null],
+ ["Galvanized Wire","Wire","Rust-resistant binding and fencing wire.",null],
+ ["Gabion Boxes","Construction","Retaining walls and erosion control that last.",null],
+ ["Nails","Construction","Assorted sizes for every carpentry and building job.",null],
+ ["Electric Fence Wire","Security","Reliable perimeter protection for homes and farms.",null],
+ ["Shade Net","Agriculture","Protect crops and define boundaries at a fair price.",null]
+];
+const icons={Fencing:"⛓️",Security:"🛡️",Agriculture:"🌾",Wire:"🪢",Construction:"🧱"};
+const cats=["All",...new Set(products.map(p=>p[1]))];let cat="All";
+function drawP(){
+ ptabs.innerHTML=cats.map(c=>`<button class="tab ${c===cat?"on":""}" data-c="${c}">${c}</button>`).join("");
+ pgrid.innerHTML=products.filter(p=>cat==="All"||p[1]===cat).map(p=>`<div class="card"><div class="ic">${icons[p[1]]}</div><div class="b"><small>${p[1]}</small><h3>${p[0]}</h3><p>${p[2]}</p><div class="pc">${p[3]?kes(p[3]):"Ask for price"}</div><a class="btn p s" href="${WA+enc("Hello Devki Steel, I’d like a price for: "+p[0])}">Get Price</a></div></div>`).join("");
+}
+ptabs.onclick=e=>{if(e.target.dataset.c){cat=e.target.dataset.c;drawP()}};drawP();
+
+const sizes=[1000,2000,3000,4000,5000,6000,8000,10000,16000,20000,24000];
+const tanks={"Kentank":{1000:4500,2000:10500,3000:14500,4000:18500,5000:24500,6000:27500,8000:32500,10000:45500,16000:98500,20000:147500,24000:192500},"TopTank":{},"Roto Tank":{}};
+let brand="Kentank";
+function drawT(){
+ ttabs.innerHTML=Object.keys(tanks).map(b=>`<button class="tab ${b===brand?"on":""}" data-b="${b}">${b}</button>`).join("");
+ tgrid.innerHTML=sizes.map(l=>{const p=tanks[brand][l],lit=l.toLocaleString("en-KE")+" Litres";
+  const m="Hello Devki Steel, I’d like to order: "+brand+" "+lit+(p?" - "+kes(p):"");
+  return `<div class="card"><div class="ic">💧</div><div class="b"><small>${brand} · Offer</small><h3>${lit}</h3><div class="pc">${p?kes(p):"Ask for price"}</div><a class="btn p s" href="${WA+enc(m)}">Order on WhatsApp</a></div></div>`}).join("");
+}
+ttabs.onclick=e=>{if(e.target.dataset.b){brand=e.target.dataset.b;drawT()}};drawT();
+
+const io=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){x.target.classList.add("in");io.unobserve(x.target)}}),{threshold:.15});
+document.querySelectorAll(".rv").forEach(el=>io.observe(el));
+const co=new IntersectionObserver(es=>es.forEach(x=>{if(!x.isIntersecting)return;co.unobserve(x.target);
+ const t=+x.target.dataset.n,s=x.target.dataset.s;let i=0;const id=setInterval(()=>{i=Math.min(t,i+Math.ceil(t/40));x.target.textContent=i+s;if(i>=t)clearInterval(id)},30)}),{threshold:.5});
+document.querySelectorAll("[data-n]").forEach(el=>co.observe(el));
+menu.onclick=()=>nav.classList.toggle("open");nav.onclick=()=>nav.classList.remove("open");
+form.onsubmit=e=>{e.preventDefault();const d=new FormData(form);
+ window.open(WA+enc(`Hello Devki Steel,\nName: ${d.get("name")}\nPhone: ${d.get("phone")}`+(d.get("email")?`\nEmail: ${d.get("email")}`:"")+`\n\n${d.get("msg")}`),"_blank")};
+</script>
+</body>
+</html>
